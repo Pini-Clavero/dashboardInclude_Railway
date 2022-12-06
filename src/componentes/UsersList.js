@@ -15,7 +15,7 @@ export default function UsersList() {
                   <li> Luisina Coronel </li>
                   <li> Pini Clavero </li>
             </ul>
-            <a href="https://ecommerce-vercel-production.up.railway.app/user/loginRegister" target="_blank" className="btn btn-outline-secondary rounded-0 w-80 text-center">Aquí para Registrarte</a>
+            <a href="https://ecommerce-vercel-production.up.railway.app/user/loginRegister" className="btn btn-outline-secondary rounded-0 w-80 text-center">Aquí para Registrarte</a>
         </div>
       </div>
     </div>

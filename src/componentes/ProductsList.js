@@ -19,7 +19,7 @@ export default function ProductsList() {
                   <li> Pin de Frutas </li>
             </ul>
             <div className="m-auto">
-              <a href="https://ecommerce-vercel-production.up.railway.app/products/productsList" target="_blank" className="btn btn-outline-secondary rounded-0 w-45 text-center m-1">Ir a Listado de Productos</a>
+              <a href="https://ecommerce-vercel-production.up.railway.app/products/productsList" className="btn btn-outline-secondary rounded-0 w-45 text-center m-1">Ir a Listado de Productos</a>
             </div>
         </div>
       </div>

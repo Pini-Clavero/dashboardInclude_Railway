@@ -14,7 +14,7 @@ export default function LastProduct() {
               <li><b>Colores disponibles:</b> Violeta</li>
               <li><b>Precio:</b> $9500</li>
             </ul>
-            <a href="https://ecommerce-vercel-production.up.railway.app/products/8" target="_blank" className="btn btn-outline-secondary rounded-0 w-80 text-center">Detalle del producto</a>
+            <a href="https://ecommerce-vercel-production.up.railway.app/products/8"  className="btn btn-outline-secondary rounded-0 w-80 text-center">Detalle del producto</a>
           </div>
         </div>
     </>

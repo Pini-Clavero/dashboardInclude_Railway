@@ -1,7 +1,7 @@
 import React from "react"
 import LastUser from "../componentes/LastUser"
 import UsersList from '../componentes/UsersList'
-import CountByCategory from '../componentes/CountByCategory';
+
 
 
 function CardsUser() {
@@ -12,7 +12,7 @@ function CardsUser() {
                     <LastUser />
                 </div>
                 <div className="col-md-5">
-                    {/* <CountByCategory /> */}
+                   
                     <UsersList />
                 </div>    
             </div>
