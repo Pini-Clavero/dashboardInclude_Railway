@@ -19,7 +19,7 @@ $gray: #e7e9eb3b;
   display: flex;
 };
 .content{
-  width: 100%;
+  width: 90%;
 };
 
 .navbar {
@@ -29,7 +29,9 @@ $gray: #e7e9eb3b;
   border-radius: 25px;
   margin: 10px;
 };
-
+.sidebarMovile{
+  display: none;
+}
 .sidebar{
   width: 14rem;
   height: calc(200vH - 52px);
@@ -49,6 +51,7 @@ $gray: #e7e9eb3b;
   }
 };
 
+
 .card-body, .welcomeCard, .card{
   background-color: $light;
   color: white
@@ -58,5 +61,35 @@ $gray: #e7e9eb3b;
 
   #uncontrolledDropdown{
     display: none;
+  };
+  .iconSidebarMovile{
+    display: none;
+  };
+  .sidebar{
+    display: none
+  };
+  .cardImg{
+    opacity: 0%;
   }
+  .sidebarMovile{
+    display: inline-block;
+    ul{
+      display: flex;
+      list-style: none;
+      padding: 0.5rem 0.5rem;
+      li{
+        margin-bottom: 0.5rem;
+        a{
+          text-decoration: none;
+          &.active{
+            background-color: $light
+          }
+        }
+      }
+    }
+  }
+  .content{
+    width: 100%;
+  }
+  
 }

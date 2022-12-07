@@ -2,9 +2,9 @@ import {NavLink} from "react-router-dom";
 import * as FaIcons from "react-icons/fa"
 import * as IconName from "react-icons/io5"
 
-const SideBar = () => {
+const SideBarMovile = () => {
     return (
-        <div className="sidebar">
+        <div className="sidebarMovile">
             <ul>
                 <li>
                     <NavLink to="/" className="text-white rounded py-2 w-100 d-inline-block px-3" exact activeClassName="active"><FaIcons.FaHome className="me-1 iconSidebarMovile"/>Inicio</NavLink>
@@ -20,4 +20,4 @@ const SideBar = () => {
     )
 }
 
-export default SideBar;
+export default SideBarMovile;
